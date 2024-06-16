@@ -47,7 +47,7 @@ button {
     background-color: #007afe;
     border: none;
     color: #fff;
-    padding: 15px 32px;
+    padding: 15px 32px; 
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 4px;
@@ -75,6 +75,8 @@ button:hover {
     text-align: right;
     padding: 20px;
 }
+
+
 
 .history-title {
     display: flex;
