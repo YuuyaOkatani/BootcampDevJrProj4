@@ -1,10 +1,10 @@
 .container{
-    width: 600px;
+    width: 900px;
     background-color: #d3d3d3;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+
     margin: auto;
     padding: 40px;
     border-radius: 4px;
@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 60px;
     row-gap: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -63,17 +63,24 @@ button:hover {
     background-color: #000; 
     color: #fff;   
 
-    width: 400px;    
-    
+    width: 300px;   
+    padding: 30px; 
+
+    row-gap: 20px;
     border-radius:10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.calc-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
 .last-operations{
     text-align: right;
-    padding: 20px;
+    padding: 10px;
 }
 
 
